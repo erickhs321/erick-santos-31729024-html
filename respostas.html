@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Questionário</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- GOOGLE FONTE ROBOTO -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body onload="MostrarNavEFooter()">
+
+
+    <header>
+        <div id="navbar">
+
+        </div>
+
+    </header>
+
+    <main>
+        <section>
+            <article class="col-xl-6 mx-auto">
+                <h2 class="text-center">Questionário</h2>
+                <ol class="font-weight-bold questionario">
+                    <li class="">
+                        <p>
+                            Os termos Web e Internet frequentemente são usados como sinônimos. Explique com suas palavras qual é a diferença entre Internet
+                            e Web?
+                        </p>
+                        <p class="font-weight-normal">
+
+                            Internet é a rede mundial de computadores ou seja a estrutura física(servidores). A web é uma das várias ferramentas de acesso
+                            a essa rede.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            O que acontece quando digitamos um endereço web na barra de navegação? Explique de maneira sucinta o funcionamento do modelo
+                            cliente/servidor da web. Para enriquecer sua resposta, adicione em sua explicação imagens estáticas
+                            ou gifs animados, caso encontre.
+                        </p>
+                        <p class="font-weight-normal">
+                            É enviada uma requisição para o servidor através da internet, e ele nos retorna os arquivos da página web.
+                            <figure class="col-md-8 mx-auto">
+                                <img src="img/http.png" class="img-fluid" alt="">
+                            </figure>
+                        </p>
+                    </li>
+                    <p>
+
+                        <li>
+                            <p>
+                                Uma aplicação web é um "Software baseado nas tecnologias e nos padrões do World Wide Web Consortium (W3C) que fornece recursos
+                                específicos através da Web, como conteúdos e serviços, através de uma interface de usuário,
+                                o navegador Web". De acordo com essa definição, responda: Web sites, sem componentes de software,
+                                como páginas HTML estáticas, são consideradas aplicações Web? Justifique.
+                            </p>
+                            <p class="font-weight-normal">
+                                Não, pois para ser uma aplicação web, é necessário fazer uso de tecnologias de desenvolvimento que são html,css,js.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                O HTML (hypertext markup language) é uma linguagem de programação, atualmente na versão 5, muito utilizada para ambientes
+                                desktop? Justifique.
+                            </p>
+                            <p class="font-weight-normal">
+                                A linguagem HTML não é utilizada no desenvolvimento de aplicações para desktop, pois ela é voltada para o desenvolvimento
+                                web e é interpretada apenas pelos softwares de navegação(chrome, firefox, etc...).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                São tecnologias e padrões associados ao funcionamento da world wide web (WWW), EXCETO:
+                            </p>
+                            <ol type="A" class="font-weight-normal">
+                                <li>HTTP</li>
+                                <li>HTML</li>
+                                <li class="text-success">SQL</li>
+                                <li>URL</li>
+                            </ol>
+                        </li>
+
+                        <li>
+                            <p>
+                                Um programa elaborado na linguagem HTML apresenta a seguinte linha: &lt;!DOCTYPE HTML&gt;. Sobre essa linha, é correto afirmar
+                                que ela:
+                            </p>
+
+                            <ol type="A" class="font-weight-normal">
+                                <li>Indica que o arquivo com o programa-fonte possui a extensão doc.</li>
+                                <li>Deve vir sempre após a tag .</li>
+                                <li>É uma tag que define o nome do arquivo que possui o programa.</li>
+                                <li class="text-success">
+                                    Especifica ao navegador o tipo de documento HTML que ele vai renderizar.
+                                </li>
+                                <li>
+                                    Não atende corretamente a linguagem HTML, que não aceita o símbolo ! em seus comandos.
+                                </li>
+                            </ol>
+                        </li>
+
+                        <li>
+                            <p>No HTML Tags são:</p>
+
+                            <ol type="A" class="font-weight-normal">
+                                <li>Comandos de linguagem de programação orientada a objetos.</li>
+                                <li>
+                                    Variáveis de tamanho fixo definidas internamente em um programa de computador.
+                                </li>
+                                <li class="text-success">
+                                    Códigos de formatação usados em documentos HTML para instruir o browser sobre a forma de apresentação de textos e gráficos
+                                    numa home-page.
+                                </li>
+                                <li>
+                                    Definem constantes de formatação que são usadas em linguagens tais como PHP e JSP para que o browser entenda o significado
+                                    de uma expressão ou gráfico.
+                                </li>
+                            </ol>
+                        </li>
+
+                        <li>
+                            <p>O elemento CANVAS do HTML 5 é:</p>
+
+                            <ol type="A" class="font-weight-normal">
+                                <li>um sistema que define um mapa de imagem.</li>
+                                <li>um sistema que permite ao autor especificar recursos de vídeo e áudio.</li>
+                                <li>
+                                    um sistema que se vale de um conjunto de navegações aninhadas em um documento html incorporado.
+                                </li>
+                                <li>um sistema que faz transições de animação.
+                                    <li class="text-success">
+                                        um sistema de elaboração de objetos gráficos geralmente em javascript que se utiliza de métodos para desenhar formas personalizadas.
+                                    </li>
+                            </ol>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Um desenvolvedor web deseja fazer um glossário de termos em um site utilizando listas de definições do HTML5. Nestas listas,
+                                    o termo a ser descrito e a descrição propriamente dita são criados, respectivamente,
+                                    por quais tags? Escreva a definição das TAGs escolhidas e justifique seu uso neste cenário.
+                                </p>
+                                <ol type="A" class="font-weight-normal">
+                                    <li>&lt;dt&gt; e &lt;dd&gt;</li>
+                                    <li>&lt;dd&gt; e &lt;tt&gt;</li>
+                                    <li class="text-success">
+                                        &lt;ul&gt; e &lt;li&gt;
+                                    </li>
+                                    <li>&lt;tt&gt; e &lt;dd&gt;</li>
+                                    <li>&lt;dd&gt; e &lt;dt&gt;</li>
+                                </ol>
+                            </li>
+
+                            <li>
+                                <p>
+                                    As tabelas são elementos muito utilizados na elaboração de páginas HTML. Listas de produtos e respectivos preços são exemplos
+                                    de informações formatadas e apresentadas através de tabelas na Internet. As tags HTML
+                                    utilizadas para criar, respectivamente, linhas e colunas em uma tabela são:
+                                </p>
+                                <ol type="A" class="font-weight-normal">
+                                    <li>&lt;br /&gt; e &lt;/p&gt;</li>
+                                    <li>&lt;br /&gt; e &lt;em&gt;&lt;/em&gt;</li>
+                                    <li>&lt;em&gt;&lt;/em&gt; e &lt;tr&gt;&lt;/tr&gt;</li>
+                                    <li class="text-success">
+                                        &lt;tr&gt;&lt;/tr&gt; e &lt;td&gt;&lt;/td&gt;
+                                    </li>
+                                    <li>&lt;td&gt;&lt;/td&gt; e &lt;tr&gt;&lt;/tr&gt;</li>
+                                </ol>
+
+                            </li>
+                </ol>
+                <h2 class="text-center">Gabarito</h2>
+
+                <div class="col-md-6 mx-auto">
+                    <table class="table table-bordered text-center ">
+                        <thead>
+                            <tr class="bg-primary">
+                                <th>Questão</th>
+                                <th>A</th>
+                                <th>B</th>
+                                <th>C</th>
+                                <th>D</th>
+                                <th>E</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>5</td>
+                                <td></td>
+                                <td></td>
+                                <td class="bg-success">X</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="bg-success">X</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td></td>
+                                <td></td>
+                                <td class="bg-success">X</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="bg-success">X</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td></td>
+                                <td></td>
+                                <td class="bg-success">X</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="bg-success">X</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </article>
+        </section>
+    </main>
+
+
+    <footer id="footer" class="position-sticky">
+
+    </footer>
+
+    <!-- js -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/meu-script.js"></script>
+
+
+</body>
+
+</html>

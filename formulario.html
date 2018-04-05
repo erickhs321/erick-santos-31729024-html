@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- GOOGLE FONTE ROBOTO -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+</head>
+
+<body onload="MostrarNavEFooter()">
+
+    
+
+    <header id="cabecalho">
+        <div id="navbar">
+        </div>
+
+    </header>
+
+    <main>
+
+        <section>
+            <article class="col-md-12">
+                <h2 class="text-center">Formulário de cadastro</h2>
+
+                <form action="" method="get">
+                    <div class="form-group col-md-4 mx-auto">
+
+                        <label for="nome">
+                            Nome:
+
+                        </label>
+                        <input type="text" class="form-control">
+
+
+                        <label for="sobrenome">
+                            Sobrenome:
+
+                        </label>
+                        <input type="text" class="form-control">
+
+
+                        <label for="nascimento">
+                            Data de nascimento:
+
+                        </label>
+                        <input type="date" class="form-control">
+
+
+                        <label for="identidade">
+                            Identidade:
+
+                        </label>
+                        <input type="text" class="form-control">
+
+
+                        <label for="cpf">
+                            CPF:
+
+                        </label>
+                        <input type="number" class="form-control">
+
+
+                        <label for="sexo">
+                            Sexo:
+                        </label>
+
+                        <label for="">
+                            <input type="radio" name="sexo" value="m" class="radio-inline"> Masculino
+                        </label>
+                        <label for="">
+                            <input type="radio" name="sexo" value="f" class="radio-inline">Feminino
+                        </label>
+                        <br>
+                        <label for="estado-civil">
+                            Estado Civil:
+
+                        </label>
+
+                        <select name="estado-civil" class="form-control" id="">
+                            <option value="solteiro">Solteiro(a)</option>
+                            <option value="casado"> Casado(a)</option>
+                            <option value="divorciado">Divorciado(a)</option>
+                            <option value="viuvo">Viúvo(a)</option>
+                            <option value="separado">Separado(a)</option>
+                        </select>
+
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" class="form-control">
+
+
+                        <label for="celular">
+                            Celular:
+
+                        </label>
+                        <input type="tel" class="form-control">
+
+
+                        <label for="email">
+                            Email:
+
+                        </label>
+                        <input type="email" name="email" class="form-control">
+
+
+                        <label for="endereco">
+                            Endereço:
+
+                        </label>
+                        <textarea name="endereco" id="" cols="30" rows="2" class="form-control"></textarea>
+                        <br>
+                        <button type="submit" class="btn btn-primary col-md-2">Enviar</button>
+                        <button type="reset" class="btn btn-danger col-md-2" >Limpar</button>
+                      
+
+                    </div>
+
+                </form>
+
+            </article>
+        </section>
+
+
+
+
+    </main>
+    <footer id="footer" >
+
+    </footer>
+
+
+    <!-- js -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/meu-script.js"></script>
+
+</body>
+
+</html>
